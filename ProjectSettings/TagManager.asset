@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Bullet
+  - Obstacle
+  - ItemBread
+  - ItemCrystal
+  - ItemBook
+  - Boss
+  - FxTemporaire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 619756859
+    locked: 0
+  - name: Item
+    uniqueID: 1263276735
+    locked: 0
+  - name: Enemy
+    uniqueID: 88021561
+    locked: 0
+  - name: Player
+    uniqueID: 1324109101
+    locked: 0
+  - name: Bullet
+    uniqueID: 4233101903
+    locked: 0
+  - name: Explosion_Enemy
+    uniqueID: 2472263823
+    locked: 0
+  - name: HPBar
+    uniqueID: 3261748877
+    locked: 0
