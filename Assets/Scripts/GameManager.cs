@@ -11,9 +11,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject warriorPrefab;
     [SerializeField] private GameObject gunnerPrefab;
 
-    // Job Select Panel
-    [SerializeField] private GameObject jobSelectPanel;
-
     // FeverMode Variable
     private GameObject background;
     private GameObject desert;
@@ -35,7 +32,7 @@ public class GameManager : MonoBehaviour
     void Start() {
         background = GameObject.Find("Background");
         desert = GameObject.Find("Desert");
-        jobSelectPanel.SetActive(true);
+        HUDManager.instance.ShowJobSelectPanel();
     }
 
     public void SetFeverMode(bool mode) { // false면 FeverMode 종료, true면 FeverMode 
@@ -121,7 +118,7 @@ public class GameManager : MonoBehaviour
             itemSpawner.StartItemSpawn();
         }
 
-        jobSelectPanel.SetActive(false);
+        HUDManager.instance.HideJobSelectPanel();
         FindObjectOfType<CameraFollow>().FollowPlayer();
     }
 

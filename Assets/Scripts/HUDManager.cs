@@ -6,8 +6,12 @@ public class HUDManager : MonoBehaviour
 {
     public static HUDManager instance {get; private set;} = null;
 
+    // Game Result Panel
     [SerializeField] private GameObject gameWinPanel;
     [SerializeField] private GameObject gameFailPanel;
+
+    // Job Select Panel
+    [SerializeField] private GameObject jobSelectPanel;
 
     private void Awake() {
         if (instance == null) {
@@ -24,6 +28,7 @@ public class HUDManager : MonoBehaviour
     public void DisableAllPanel() {
         gameWinPanel.SetActive(false);
         gameFailPanel.SetActive(false);
+        jobSelectPanel.SetActive(false);
     }
 
     public void ShowGameWinPanel() {
@@ -32,5 +37,13 @@ public class HUDManager : MonoBehaviour
 
     public void ShowGameFailPanel() {
         gameFailPanel.SetActive(true);
+    }
+
+    public void ShowJobSelectPanel() {
+        jobSelectPanel.SetActive(true);
+    }
+
+    public void HideJobSelectPanel() {
+        jobSelectPanel.SetActive(false);
     }
 }

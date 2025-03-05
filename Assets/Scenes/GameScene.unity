@@ -1999,6 +1999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameWinPanel: {fileID: 1614756556}
   gameFailPanel: {fileID: 1514492106}
+  jobSelectPanel: {fileID: 338041783}
 --- !u!4 &684016748
 Transform:
   m_ObjectHideFlags: 0
@@ -2766,7 +2767,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   warriorPrefab: {fileID: 429483583251843978, guid: 2d6fc943d2bf03e49853335c73eec68b, type: 3}
   gunnerPrefab: {fileID: 4714783565407459186, guid: bcff1a08d958fa34384e06230fbcebd8, type: 3}
-  jobSelectPanel: {fileID: 338041783}
 --- !u!4 &1143454262
 Transform:
   m_ObjectHideFlags: 0
