@@ -61,7 +61,6 @@ https://velog.io/@lmg0052/series/Unity-Slime-Survivor
 ![image](https://github.com/user-attachments/assets/d71368a7-0a4e-4f30-87bc-7cd9276938a8)
 ![image](https://github.com/user-attachments/assets/9b4d554e-e339-4318-84ae-558970bbedcf)
 ![image](https://github.com/user-attachments/assets/6270c5fb-6e8c-4213-9e83-7b6adcb41e0c)
-
 <br><br/>
 
 - **게임 플레이 영상 링크**: https://www.youtube.com/shorts/FHGFF2aizx4
